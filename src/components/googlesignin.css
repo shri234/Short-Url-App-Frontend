@@ -1,0 +1,75 @@
+/* google-signin.css */
+
+/* Global styles */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f7fafc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container styling */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7fafc;
+  }
+  
+  /* Card styling */
+  .card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .card h1 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #2d3748;
+    margin-bottom: 16px;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #718096;
+    margin-bottom: 24px;
+  }
+  
+  /* Google Login Button */
+  .google-login {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .google-login button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .card {
+      padding: 16px;
+    }
+  
+    .card h1 {
+      font-size: 1.5rem;
+    }
+  
+    .card p {
+      font-size: 0.9rem;
+    }
+  }
+  
